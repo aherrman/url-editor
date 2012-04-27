@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 600px;
+      }
+
+      h4 {
+        margin-bottom: 2px;
+      }
+
+      #scheme { width: 35px; }
+      #domain { width: 400px; }
+      #path { width: 500px; }
+      #port { width: 35px; }
+      #fragment { width: 500px; }
+
+      .editor {
+        margin-left: 20px;
+      }
+
+      .parameter input {
+        display: inline-block;
+      }
+      .parameter .name {
+        width: 150;
+      }
+      .parameter .value {
+        width: 300px;
+      }
+      .parameter .removeLink {
+        font-size: 10px;
+        margin-left: 5px;
+      }
+
+      #controls a {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>Server and Path</h4>
+    <div class="editor">
+      <input id="scheme" type="text" placeholder="scheme"></input>
+      ://
+      <input id="domain" type="text" placeholder="domain"></input>
+      :
+      <input id="port" type="text" placeholder="port"></input>
+      <br>
+      <input id="path" type="text" placeholder="path"></input>
+    </div>
+
+    <h4>Params</h4>
+    <div class="editor">
+      <div id="params"></div>
+      <a href="#" id="addLink">Add</a>
+    </div>
+
+    <h4>Fragment</h4>
+    <div class="editor">
+      <input id="fragment" type="text" placeholder="#fragment"></input>
+    </div>
+
+    <div id="controls">
+      <a href="#" id="resetLink">Reset</a>
+      <a href="#" id="launchLink">Launch</a>
+      <a href="#" id="launchNewTabLink">Launch in New Tab</a>
+    </div>
+
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="popup.js"></script>
+  </body>
+</html>

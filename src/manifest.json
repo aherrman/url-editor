@@ -1,0 +1,20 @@
+{
+  "name": "URL Editor",
+  "version": "1.1",
+  "manifest_version": 2,
+  "description": "Extension for editing URL parameters",
+
+  "update_url": "http://www.corp.google.com/~aherrman/urleditor/updates.xml",
+  "homepage_url": "http://www.corp.google.com/~aherrman/urleditor",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "URL Editor",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "http://*/*",
+    "tabs"
+  ]
+}
