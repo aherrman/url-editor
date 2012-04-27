@@ -4,8 +4,7 @@
   "manifest_version": 2,
   "description": "Extension for editing URL parameters",
 
-  "update_url": "http://www.corp.google.com/~aherrman/urleditor/updates.xml",
-  "homepage_url": "http://www.corp.google.com/~aherrman/urleditor",
+  "homepage_url": "http://code.gogle.com/p/url-editor/",
 
   "browser_action": {
     "default_icon": "icon.png",
