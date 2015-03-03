@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "Extension for editing URL parameters",
 
-  "homepage_url": "http://code.gogle.com/p/url-editor/",
+  "homepage_url": "https://github.com/aherrman/url-editor",
 
   "browser_action": {
     "default_icon": "icon.png",
